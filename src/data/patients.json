@@ -1,0 +1,2192 @@
+{
+  "entry": [
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/3457910f-7876-4be9-a3b2-790e568f7faa",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Higher House Farm", "Apartment 3"],
+            "postalCode": "SW1W 0NY"
+          }
+        ],
+        "birthDate": "1991-01-17",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "female",
+        "id": "3457910f-7876-4be9-a3b2-790e568f7faa",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "rYyODZRAs1gdNHxnpkUJ1oqys4e2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-17T12:01:13.937518+00:00",
+          "versionId": "MTY3Mzk1Njg3MzkzNzUxODAwMA"
+        },
+        "name": [
+          {
+            "family": "Tymokhova",
+            "given": ["Yuliya", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660952935474"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "Luliia.Tymokhova@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "rYyODZRAs1gdNHxnpkUJ1oqys4e2",
+          "roles": [
+            {
+              "id": "63c68e09b14a0303ef79196c",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c68e09b14a0303ef79196b",
+              "createdAt": "2023-01-17T12:01:13.969Z",
+              "updatedAt": "2023-01-17T12:01:13.969Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c68e09b14a0303ef79196b",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2023-01-17T12:01:13.969Z",
+          "updatedAt": "2023-01-17T13:26:57.998Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/d4c436b6-6e8d-4124-a9b5-b237f62c37db",
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Flat 13 juniper court", "71 Mulgrave Road Sutton"],
+            "postalCode": "SM2 6LY"
+          }
+        ],
+        "birthDate": "1992-02-11",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering, London"
+          }
+        ],
+        "gender": "male",
+        "id": "d4c436b6-6e8d-4124-a9b5-b237f62c37db",
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "SP0200100A"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "EI",
+                  "display": "Employee Number",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "122343"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "jApWdCi2AtgQH1rwRU5r6gQjqeY2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-17T07:46:59.961574+00:00",
+          "versionId": "MTY3Mzk0MTYxOTk2MTU3NDAwMA"
+        },
+        "name": [
+          {
+            "family": "Test",
+            "given": ["result app"]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+44-7375116436"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "oleg43@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "jApWdCi2AtgQH1rwRU5r6gQjqeY2",
+          "roles": [
+            {
+              "id": "63c65274b14a0303ef791962",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c65274b14a0303ef791961",
+              "createdAt": "2023-01-17T07:46:59.995Z",
+              "updatedAt": "2023-01-17T07:46:59.995Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c65274b14a0303ef791961",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": ["Engineering", " London"],
+          "createdAt": "2023-01-17T07:46:59.995Z",
+          "updatedAt": "2023-01-17T07:46:59.995Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/a15affc0-854a-4e4f-b131-ad7cdace0e62",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Higher House Farm", "Apartment 3"],
+            "postalCode": "SW1W 0NY"
+          }
+        ],
+        "birthDate": "1991-01-17",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "female",
+        "id": "a15affc0-854a-4e4f-b131-ad7cdace0e62",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "MfexWCYf7AfhxePCGBgdwoyO8T92"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-17T05:42:51.398662+00:00",
+          "versionId": "MTY3MzkzNDE3MTM5ODY2MjAwMA"
+        },
+        "name": [
+          {
+            "family": "Tymokhova",
+            "given": ["Yuliya", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660952935474"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "Luliia.Tymokhova@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "MfexWCYf7AfhxePCGBgdwoyO8T92",
+          "roles": [
+            {
+              "id": "63c6355b88c0485889a50580",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c6355b88c0485889a5057f",
+              "createdAt": "2023-01-17T05:42:51.431Z",
+              "updatedAt": "2023-01-17T05:42:51.431Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c6355b88c0485889a5057f",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2023-01-17T05:42:51.431Z",
+          "updatedAt": "2023-01-17T06:02:01.569Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/ca8dd285-b757-4954-9db9-0eda38ba37fe",
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Flat 13 juniper court", "71 Mulgrave Road Sutton"],
+            "postalCode": "SM2 6LY"
+          }
+        ],
+        "birthDate": "1992-02-11",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering, London"
+          }
+        ],
+        "gender": "male",
+        "id": "ca8dd285-b757-4954-9db9-0eda38ba37fe",
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "SP0200100A"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "EI",
+                  "display": "Employee Number",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "122343"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "pXcMf2AlwYb67iQWUftfI5jmK4l2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-16T13:47:50.307394+00:00",
+          "versionId": "MTY3Mzg3Njg3MDMwNzM5NDAwMA"
+        },
+        "name": [
+          {
+            "family": "Test",
+            "given": ["result app"]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+44-7375116416"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "toleg41@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "pXcMf2AlwYb67iQWUftfI5jmK4l2",
+          "roles": [
+            {
+              "id": "63c555864ce2c0d0fced73e0",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c555864ce2c0d0fced73df",
+              "createdAt": "2023-01-16T13:47:50.337Z",
+              "updatedAt": "2023-01-16T13:47:50.337Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c555864ce2c0d0fced73df",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": ["Engineering", " London"],
+          "createdAt": "2023-01-16T13:47:50.337Z",
+          "updatedAt": "2023-01-16T13:47:50.337Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/54c6c646-e6c8-474d-8c49-9c249c884b5a",
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Flat 13 juniper court", "71 Mulgrave Road Sutton"],
+            "postalCode": "SM2 6LY"
+          }
+        ],
+        "birthDate": "1992-02-11",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering, London"
+          }
+        ],
+        "gender": "male",
+        "id": "54c6c646-e6c8-474d-8c49-9c249c884b5a",
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "SP0200100A"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "EI",
+                  "display": "Employee Number",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "122343"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "UAVjAgTKRidzHulp4qT12U4dzyF2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-16T12:46:46.080270+00:00",
+          "versionId": "MTY3Mzg3MzIwNjA4MDI3MDAwMA"
+        },
+        "name": [
+          {
+            "family": "Test",
+            "given": ["result app"]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+44-7058116147"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "January16@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "UAVjAgTKRidzHulp4qT12U4dzyF2",
+          "roles": [
+            {
+              "id": "63c547364ce2c0d0fced73db",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c547364ce2c0d0fced73da",
+              "createdAt": "2023-01-16T12:46:46.112Z",
+              "updatedAt": "2023-01-16T12:46:46.112Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c547364ce2c0d0fced73da",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": ["Engineering", " London"],
+          "createdAt": "2023-01-16T12:46:46.112Z",
+          "updatedAt": "2023-01-16T12:46:46.112Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/3db70e2a-1de4-4200-8616-76e35b77680b",
+      "resource": {
+        "address": [
+          {
+            "city": "Kendal",
+            "country": "United Kingdom",
+            "line": ["Higher House Farm", ""],
+            "postalCode": "SW1W 0NY"
+          }
+        ],
+        "birthDate": "1991-01-13",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ",HR,Engineering"
+          }
+        ],
+        "gender": "female",
+        "id": "3db70e2a-1de4-4200-8616-76e35b77680b",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "ZqZz59VCgVhE1uD69yeIMP90ish2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-13T17:13:35.312900+00:00",
+          "versionId": "MTY3MzYzMDAxNTMxMjkwMDAwMA"
+        },
+        "name": [
+          {
+            "family": "Friday",
+            "given": ["Julie", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660952935474"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "Luliia.Tymokhova@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "ZqZz59VCgVhE1uD69yeIMP90ish2",
+          "roles": [
+            {
+              "id": "63c1913e076d87c48174bfc4",
+              "active": false,
+              "roleId": "63220202bd38c7b602b1c1ac",
+              "userId": "63c1820f076d87c48174bfc0",
+              "createdAt": "2023-01-13T17:13:34.740Z",
+              "updatedAt": "2023-01-13T17:13:34.740Z",
+              "name": "Admin",
+              "code": "Admin",
+              "description": null
+            },
+            {
+              "id": "63c1913e076d87c48174bfc5",
+              "active": false,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c1820f076d87c48174bfc0",
+              "createdAt": "2023-01-13T17:13:34.740Z",
+              "updatedAt": "2023-01-13T17:13:34.740Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c1820f076d87c48174bfc0",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2023-01-13T16:08:47.554Z",
+          "updatedAt": "2023-01-16T10:02:44.966Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/ca87fe2c-af61-4495-adb5-85e0fef3d245",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["123 fake street", ""],
+            "postalCode": "SW1A 1AA"
+          }
+        ],
+        "birthDate": "1990-01-13",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering"
+          }
+        ],
+        "gender": "male",
+        "id": "ca87fe2c-af61-4495-adb5-85e0fef3d245",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "7mOviO67f8eHtKD9KzAy0oqe5Lj2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-13T15:28:59.802716+00:00",
+          "versionId": "MTY3MzYyMzczOTgwMjcxNjAwMA"
+        },
+        "name": [
+          {
+            "family": "Khylenko",
+            "given": ["Ihor", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+16505551029"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "ihor.khylenko@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "7mOviO67f8eHtKD9KzAy0oqe5Lj2",
+          "roles": [
+            {
+              "id": "63c178bb076d87c48174bfbc",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c178bb076d87c48174bfbb",
+              "createdAt": "2023-01-13T15:28:59.842Z",
+              "updatedAt": "2023-01-13T15:28:59.842Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c178bb076d87c48174bfbb",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "DeletionRequest",
+          "disabled": true,
+          "tags": ["Engineering"],
+          "createdAt": "2023-01-13T15:28:59.842Z",
+          "updatedAt": "2023-01-27T08:30:18.729Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/5fafd26d-c12a-442a-a876-4373e8d2caeb",
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Flat 13 juniper court", "71 Mulgrave Road Sutton"],
+            "postalCode": "SM2 6LY"
+          }
+        ],
+        "birthDate": "1992-02-11",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering, London"
+          }
+        ],
+        "gender": "male",
+        "id": "5fafd26d-c12a-442a-a876-4373e8d2caeb",
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "SP0200100A"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "EI",
+                  "display": "Employee Number",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "122343"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "6nTswwEjfVTNpI7ydbGIsEjsZTP2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-13T15:24:58.920252+00:00",
+          "versionId": "MTY3MzYyMzQ5ODkyMDI1MjAwMA"
+        },
+        "name": [
+          {
+            "family": "Test",
+            "given": ["result app"]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+44-7375744106"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "oleg40@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "6nTswwEjfVTNpI7ydbGIsEjsZTP2",
+          "roles": [
+            {
+              "id": "63c177ca076d87c48174bfb8",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c177ca076d87c48174bfb7",
+              "createdAt": "2023-01-13T15:24:58.953Z",
+              "updatedAt": "2023-01-13T15:24:58.953Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c177ca076d87c48174bfb7",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": ["Engineering", " London"],
+          "createdAt": "2023-01-13T15:24:58.953Z",
+          "updatedAt": "2023-01-13T15:24:58.953Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/d2264db9-4296-48f7-942b-1f2058f76d21",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["123 fake street", ""],
+            "postalCode": "SW1A 1AA"
+          }
+        ],
+        "birthDate": "1990-01-13",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering"
+          }
+        ],
+        "gender": "male",
+        "id": "d2264db9-4296-48f7-942b-1f2058f76d21",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "YXVZoR1V4Pb3k8an6HwOcY8qfgM2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-13T15:16:09.449018+00:00",
+          "versionId": "MTY3MzYyMjk2OTQ0OTAxODAwMA"
+        },
+        "name": [
+          {
+            "family": "Khylenko",
+            "given": ["Ihor", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+16505551029"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "ihor.khylenko@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "YXVZoR1V4Pb3k8an6HwOcY8qfgM2",
+          "roles": [
+            {
+              "id": "63c175b9076d87c48174bfb6",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c175b9076d87c48174bfb5",
+              "createdAt": "2023-01-13T15:16:09.486Z",
+              "updatedAt": "2023-01-13T15:16:09.486Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c175b9076d87c48174bfb5",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": ["Engineering"],
+          "createdAt": "2023-01-13T15:16:09.486Z",
+          "updatedAt": "2023-01-13T15:26:54.008Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/52e9693f-32f1-4fb0-a1c7-2b4c50f16d8b",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["Higher House Farm", "Apartment 3"],
+            "postalCode": "SW1W 0NY"
+          }
+        ],
+        "birthDate": "1991-01-13",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "female",
+        "id": "52e9693f-32f1-4fb0-a1c7-2b4c50f16d8b",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "mwe8FX9Xq4TnoqwOQbPJZHY9l6t1"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2023-01-13T14:55:07.149161+00:00",
+          "versionId": "MTY3MzYyMTcwNzE0OTE2MTAwMA"
+        },
+        "name": [
+          {
+            "family": "Tymokhova",
+            "given": ["Iuliia", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660952935474"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "Luliia.Tymokhova@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "mwe8FX9Xq4TnoqwOQbPJZHY9l6t1",
+          "roles": [
+            {
+              "id": "63c170cb076d87c48174bfb2",
+              "active": true,
+              "roleId": "635a751ffd7f29ac68dfb706",
+              "userId": "63c170cb076d87c48174bfb1",
+              "createdAt": "2023-01-13T14:55:07.179Z",
+              "updatedAt": "2023-01-13T14:55:07.179Z",
+              "name": "Patient",
+              "code": "Patient",
+              "description": null
+            }
+          ],
+          "id": "63c170cb076d87c48174bfb1",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2023-01-13T14:55:07.179Z",
+          "updatedAt": "2023-01-13T15:06:55.040Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/8236ee32-ae12-4481-a623-d978f1cfbe06",
+      "resource": {
+        "address": [
+          {
+            "city": "Kendal",
+            "country": "United Kingdom",
+            "line": ["Higher House Farm", "Oxenholme Lane"],
+            "postalCode": "LA9 7QH"
+          }
+        ],
+        "birthDate": "2002-11-01",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering,IT"
+          }
+        ],
+        "gender": "other",
+        "id": "8236ee32-ae12-4481-a623-d978f1cfbe06",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "owlab7N0qkf2DUo4pWkXx2eUTMP2"
+          }
+        ],
+        "managingOrganization": {},
+        "meta": {
+          "lastUpdated": "2022-11-03T10:24:26.097661+00:00",
+          "versionId": "MTY2NzQ3MTA2NjA5NzY2MTAwMA"
+        },
+        "name": [
+          {
+            "family": "User",
+            "given": ["Happy", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660993574392"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "i.tymokhova@theappsolutions.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "owlab7N0qkf2DUo4pWkXx2eUTMP2",
+          "roles": [],
+          "id": "6361479b69eb0a3f75167e7d",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-11-01T16:21:47.469Z",
+          "updatedAt": "2022-11-01T16:21:47.469Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/07a41d1a-2541-402b-8df2-0dbc8243ad0d",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["123 Fake Street", "Apartment 2"],
+            "postalCode": "SW1W 0NY"
+          }
+        ],
+        "birthDate": "2022-11-22",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering,IT"
+          }
+        ],
+        "gender": "female",
+        "id": "07a41d1a-2541-402b-8df2-0dbc8243ad0d",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "7xf7fTGTaReRrfZJbfu6OtFRtqY2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-11-01T11:20:08.223873+00:00",
+          "versionId": "MTY2NzMwMTYwODIyMzg3MzAwMA"
+        },
+        "name": [
+          {
+            "family": "Tymokhova",
+            "given": ["Iuliia", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660952935474"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "Luliia.Tymokhova@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "7xf7fTGTaReRrfZJbfu6OtFRtqY2",
+          "roles": [],
+          "id": "636100e8fa1249185787f23b",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-11-01T11:20:08.246Z",
+          "updatedAt": "2022-11-02T10:06:29.483Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/b0434747-e56c-4e56-9440-75891dba45ea",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["123 Fake Street", "Flat 1"],
+            "postalCode": "SW1A 1AA"
+          }
+        ],
+        "birthDate": "1991-11-22",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "IT,Engineering"
+          }
+        ],
+        "gender": "female",
+        "id": "b0434747-e56c-4e56-9440-75891dba45ea",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "rxz1qY2BFaUTfd2HqwBulIgOUdy2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-11-01T08:53:39.588325+00:00",
+          "versionId": "MTY2NzI5MjgxOTU4ODMyNTAwMA"
+        },
+        "name": [
+          {
+            "family": "Tymokhova",
+            "given": ["Iuliia", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+660952935474"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "Luliia.Tymokhova@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "rxz1qY2BFaUTfd2HqwBulIgOUdy2",
+          "roles": [],
+          "id": "6360de93fa1249185787f23a",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-11-01T08:53:39.624Z",
+          "updatedAt": "2022-11-01T08:53:39.624Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/59cba30a-3aea-4178-aaf1-d4fd5670a9a3",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["123 Fake Street", "Flat 1"],
+            "postalCode": "SW1A1AA"
+          }
+        ],
+        "birthDate": "1997-07-03",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "HR"
+          }
+        ],
+        "gender": "female",
+        "id": "59cba30a-3aea-4178-aaf1-d4fd5670a9a3",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "BdFTackQ36MjIWLexnCW1M0UTXx2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-31T15:42:36.109398+00:00",
+          "versionId": "MTY2NzIzMDk1NjEwOTM5ODAwMA"
+        },
+        "name": [
+          {
+            "family": "Icecold",
+            "given": ["Iczac", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+447765727125"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "rjijhmdepilrbtkdul@tmmwj.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "BdFTackQ36MjIWLexnCW1M0UTXx2",
+          "roles": [],
+          "id": "635fd992fa1249185787f239",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-31T14:20:02.552Z",
+          "updatedAt": "2022-10-31T14:20:02.552Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/afd3c87d-505e-4975-9347-92fc029f2852",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["123 fake street", ""],
+            "postalCode": "SW1A 1AA"
+          }
+        ],
+        "birthDate": "1990-07-31",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "BI"
+          }
+        ],
+        "gender": "male",
+        "id": "afd3c87d-505e-4975-9347-92fc029f2852",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "7zL5sbs10SfCoZ6irnyDJJZtKi52"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-31T13:23:07.861984+00:00",
+          "versionId": "MTY2NzIyMjU4Nzg2MTk4NDAwMA"
+        },
+        "name": [
+          {
+            "family": "Khylenko",
+            "given": ["Ihor", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+380954923968"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "ihor.khylenko@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "7zL5sbs10SfCoZ6irnyDJJZtKi52",
+          "roles": [],
+          "id": "635fcc3bfa1249185787f238",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-31T13:23:07.896Z",
+          "updatedAt": "2022-11-02T12:29:09.633Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/98853f29-ec6b-4f09-8a9d-21fe995b8247",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["76 Durnsford Road", ""],
+            "postalCode": "SW19 8HQ"
+          }
+        ],
+        "birthDate": "1977-11-10",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "male",
+        "id": "98853f29-ec6b-4f09-8a9d-21fe995b8247",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "pb6vxH7HZEUDXuoFMy742awes0I3"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-29T09:33:21.257604+00:00",
+          "versionId": "MTY2NzAzNjAwMTI1NzYwNDAwMA"
+        },
+        "name": [
+          {
+            "family": "Downs",
+            "given": ["Tyler", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+1 650-555-1018"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "tyler.downs12345@yahoo.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "pb6vxH7HZEUDXuoFMy742awes0I3",
+          "roles": [],
+          "id": "635cf361fa1249185787f237",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-29T09:33:21.283Z",
+          "updatedAt": "2022-10-31T09:04:08.321Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/9081d052-ee56-4f79-8c0c-a44e316998a0",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["76 Durnsford Road", ""],
+            "postalCode": "SW19 8HQ"
+          }
+        ],
+        "birthDate": "1977-11-10",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "male",
+        "id": "9081d052-ee56-4f79-8c0c-a44e316998a0",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "H2CEo4W6FdREJiCBJONtCh5RgNw2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-29T08:26:37.941576+00:00",
+          "versionId": "MTY2NzAzMTk5Nzk0MTU3NjAwMA"
+        },
+        "name": [
+          {
+            "family": "Downs",
+            "given": ["Tyler", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+16505551017"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "tyler.downs901@yahoo.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "H2CEo4W6FdREJiCBJONtCh5RgNw2",
+          "roles": [],
+          "id": "635ce3bdfa1249185787f236",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-29T08:26:37.963Z",
+          "updatedAt": "2022-10-31T10:11:56.971Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/55ea68df-a325-4750-840e-60dbf3320f0c",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["76 Durnsford Road", ""],
+            "postalCode": "SW19 8HQ"
+          }
+        ],
+        "birthDate": "1977-10-11",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "male",
+        "id": "55ea68df-a325-4750-840e-60dbf3320f0c",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "2iOwn6tzKCSS0mQ8HTTOsFGNXeq2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-29T07:41:05.410531+00:00",
+          "versionId": "MTY2NzAyOTI2NTQxMDUzMTAwMA"
+        },
+        "name": [
+          {
+            "family": "Downs",
+            "given": ["Tyler", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+1-6505551016"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "tyler.downs789@yahoo.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "2iOwn6tzKCSS0mQ8HTTOsFGNXeq2",
+          "roles": [],
+          "id": "635cd8c5fa1249185787f235",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-29T07:39:49.890Z",
+          "updatedAt": "2022-10-29T07:46:02.040Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/f2ca3970-ce19-412e-a6c4-d02bdfddcc6c",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["76 Durnsford Road", ""],
+            "postalCode": "SW19 8HQ"
+          }
+        ],
+        "birthDate": "1977-11-10",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": ""
+          }
+        ],
+        "gender": "male",
+        "id": "f2ca3970-ce19-412e-a6c4-d02bdfddcc6c",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "P3FW1VvD5fgDo2lcNVRkRStCka43"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-28T15:24:04.259601+00:00",
+          "versionId": "MTY2Njk3MDY0NDI1OTYwMTAwMA"
+        },
+        "name": [
+          {
+            "family": "Downs",
+            "given": ["Tyler", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+1-6505551015"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "tyler.downs4567@yahoo.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "P3FW1VvD5fgDo2lcNVRkRStCka43",
+          "roles": [],
+          "id": "635bf414e7c53c7866e37a86",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": false,
+          "status": "Registered",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-28T15:24:04.289Z",
+          "updatedAt": "2022-10-28T15:24:04.289Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://healthcare.googleapis.com/v1/projects/mobile-app-356312/locations/europe-west2/datasets/qured/fhirStores/fhir/fhir/Patient/2de38314-92e7-4a37-a2ab-d748bebda3bd",
+      "resource": {
+        "address": [
+          {
+            "city": "London",
+            "country": "United Kingdom",
+            "line": ["1 claymore close morden", "Flat 14"],
+            "postalCode": "SM4 5PS"
+          }
+        ],
+        "birthDate": "1993-07-31",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/search-param-type",
+            "valueString": "Engineering"
+          }
+        ],
+        "gender": "male",
+        "id": "2de38314-92e7-4a37-a2ab-d748bebda3bd",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MB",
+                  "display": "Insurance Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "type": {
+              "coding": [
+                {
+                  "code": "NH",
+                  "display": "National Health Plan Identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PI",
+                  "display": "Patient internal identifier",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "value": "h5BXcosZDKOewsXwFrJQFyOO9Yn2"
+          }
+        ],
+        "managingOrganization": {
+          "display": "Qured Consumer",
+          "reference": "Organization/e818e2da-b66e-4f73-a229-9670a7da00c6"
+        },
+        "meta": {
+          "lastUpdated": "2022-10-28T15:01:41.241484+00:00",
+          "versionId": "MTY2Njk2OTMwMTI0MTQ4NDAwMA"
+        },
+        "name": [
+          {
+            "family": "Ahmad",
+            "given": ["Sameer", ""]
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+1-6505551013"
+          },
+          {
+            "system": "email",
+            "use": "work",
+            "value": "sameer+1013@qured.com"
+          }
+        ],
+        "user": {
+          "firebaseUserId": "h5BXcosZDKOewsXwFrJQFyOO9Yn2",
+          "roles": [],
+          "id": "635beed5e7c53c7866e37a85",
+          "organizationId": "e818e2da-b66e-4f73-a229-9670a7da00c6",
+          "phoneVerified": true,
+          "status": "Onboarded",
+          "disabled": false,
+          "tags": [],
+          "createdAt": "2022-10-28T15:01:41.270Z",
+          "updatedAt": "2022-10-28T15:01:41.270Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
